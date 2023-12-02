@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+主供
+rear camera:o2101_sc1300csly_back_mipi_raw : HQ20208934000
+front camera:o2101_hi556txd_front_mipi_raw : HQ20208294000
+depth camera:o2101_sc201cscxt_depth_mipi_raw: HQ20208935000
+
+二供
+
+
+-->
+
+<!-- hs14_NM code for DEVAL5626-646 by chenweibing at 20220521 start -->
+<!-- hs14 code for SR-AL6528A-01-747 by qiushangjie at 20221013 start -->
+<Sensors>
+    <Item back_main_camera="o2101_sc1300csly_back_mipi_raw : HQ20208934000"  back_aux1_camera= "o2101_sc201cscxt_depth_mipi_raw : HQ20208935000" filepath="/vendor/lib/dualcali_golden_golden.bin"></Item>
+    <Item back_main_camera="o2101_sc1300csly_back_mipi_raw : HQ20208934000"  back_aux1_camera= "o2102_gc2375hhlt_depth_mipi_raw : HQ20209057000" filepath="/vendor/lib/dualcali_golden_golden.bin"></Item>
+    <Item back_main_camera="o2101_sc1300csly_back_mipi_raw : HQ20208934000"  back_aux1_camera= "o2103_sp2507hcxt_depth_mipi_raw : HQ20209055000" filepath="/vendor/lib/dualcali_golden_golden.bin"></Item>
+
+    <Item back_main_camera="o2102_hi1336txd_back_mipi_raw : HQ20209056000"  back_aux1_camera= "o2101_sc201cscxt_depth_mipi_raw : HQ20208935000" filepath="/vendor/lib/dualcali_golden_golden.bin"></Item>
+    <Item back_main_camera="o2102_hi1336txd_back_mipi_raw : HQ20209056000"  back_aux1_camera= "o2102_gc2375hhlt_depth_mipi_raw : HQ20209057000" filepath="/vendor/lib/dualcali_golden_golden.bin"></Item>
+    <Item back_main_camera="o2102_hi1336txd_back_mipi_raw : HQ20209056000"  back_aux1_camera= "o2103_sp2507hcxt_depth_mipi_raw : HQ20209055000" filepath="/vendor/lib/dualcali_golden_golden.bin"></Item>
+
+    <Item back_main_camera="o2103_ov13b10hlt_back_mipi_raw : HQ2020905A000"  back_aux1_camera= "o2101_sc201cscxt_depth_mipi_raw : HQ20208935000" filepath="/vendor/lib/dualcali_golden_golden.bin"></Item>
+    <Item back_main_camera="o2103_ov13b10hlt_back_mipi_raw : HQ2020905A000"  back_aux1_camera= "o2102_gc2375hhlt_depth_mipi_raw : HQ20209057000" filepath="/vendor/lib/dualcali_golden_golden.bin"></Item>
+    <Item back_main_camera="o2103_ov13b10hlt_back_mipi_raw : HQ2020905A000"  back_aux1_camera= "o2103_sp2507hcxt_depth_mipi_raw : HQ20209055000" filepath="/vendor/lib/dualcali_golden_golden.bin"></Item>
+
+    <Item back_main_camera="o2104_hi1336sjc_back_mipi_raw : HQ2020905B000"  back_aux1_camera= "o2101_sc201cscxt_depth_mipi_raw : HQ20208935000" filepath="/vendor/lib/dualcali_golden_golden.bin"></Item>
+    <Item back_main_camera="o2104_hi1336sjc_back_mipi_raw : HQ2020905B000"  back_aux1_camera= "o2102_gc2375hhlt_depth_mipi_raw : HQ20209057000" filepath="/vendor/lib/dualcali_golden_golden.bin"></Item>
+    <Item back_main_camera="o2104_hi1336sjc_back_mipi_raw : HQ2020905B000"  back_aux1_camera= "o2103_sp2507hcxt_depth_mipi_raw : HQ20209055000" filepath="/vendor/lib/dualcali_golden_golden.bin"></Item>
+
+</Sensors>
+<!-- hs14 code for SR-AL6528A-01-747 by qiushangjie at 20221013 end -->
+<!-- hs14_NM code for DEVAL5626-646 by chenweibing at 20220521 end -->
